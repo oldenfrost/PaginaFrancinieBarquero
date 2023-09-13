@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francinie Barquero </title>
+    <link rel="icon" type="image/png" href="./assets/sonriendo.png">
+    
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap" rel="stylesheet">
+
+
+  
+    
+</head>
+<body class="bg">
+    <audio  id="miAudio" autoplay>
+        <source src="./assets/Air Acoustic Version 2018.mp3" type="audio/mpeg">
+ 
+      </audio>
+    <br>
+ <div class="container d-flex justify-content-start m-0">
+    <img class="music" src="./assets/music.svg" alt="">
+    <button id="musica" class="play">
+
+    </button>
+   
+ </div>
+   
+
+
+<br>
+
+
+
+        
+
+    <div class="container d-lg-inline-flex  ">
+        <div class="row   ">
+    
+
+            <div class="col-md-4">
+
+                <div class="mi-div p-5 sobre-mi" >
+                    <h2 class="titulos d-flex justify-content-center">  
+                        <span>Sobre</span> 
+                        <span>  </span> 
+                        <span> Mi</span>
+                    </h2>
+                  
+
+                    </span>
+                    <h2 class="informacion">
+                        <span>Apasionada profesora y artista polifacética con una amplia gama de habilidades creativas. </span> 
+                        <span> Mi objetivo es inspirar y capacitar a otros a través de mi amor por el arte.  </span>
+                        <span> Con experiencia en el dibujo en carboncillo y tiza pastel, la pintura al óleo y acrílica, la pintura en vidrio,</span>
+                        <span>la escultura, el grabado, así como en la creación de artesanías y máscaras, me enorgullece </span>
+                        <span>Mi enfoque transmitir mis conocimientos y técnicas a la próxima generación de artistas.   </span>
+                        <span>educativo resalta la exploración creativa, la expresión personal y la apreciación de la diversidad artística.</span>
+                        <span> A través de la enseñanza y el arte, aspiro a fomentar la pasión y el talento artístico en mis estudiantes,  permitiéndoles descubrir y nutrir su propia voz creativa.  </span>
+
+                    </h2>
+                    
+                </div>
+            </div>
+           
+        
+            <div class="col-md-8">
+
+            
+                <div class=" obras mi-div p-3  contenedor ">
+                    <br>
+                    <h2 class="titulos d-flex justify-content-center" ><span>Mis</span> 
+                        <span>  </span> 
+                        <span> Obras</span></h2>  
+                    <div class="row " id="mis-obras">
+                    </div>
+            
+    
+                   
+                </div>
+             
+               
+                    
+            </div>
+        </div>
+    </div>
+
+    <template id="template">
+        <div class="col-md-4">
+            <div class="card text-white mb-4 tarjetas show" style="background-color: #402B3E; color: white; border-radius: 50%;">
+                <!-- Añade los atributos personalizados para la imagen y la descripción -->
+                <img  class="card-img myImg" src="" alt="Card image cap" data-img-src="" data-img-alt="" style="border-radius: 50%;">
+                
+                <div class="card-img-overlay">
+           
+                    <p class=" fuente card-text d-flex justify-content-center">descripcion</p>
+                  </div>
+    
+            </div>
+        </div>
+    </template>
+
+  
+    
+
+
+
+
+ 
+ <br>
+
+ 
+
+
+ <div id="popUp" class="modal">
+    <span class="close"><img src="./assets/icons8-cerrar-ventana-50.png" alt="">
+    </span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+
+   <br>
+<div class="container d-flex justify-content-center mt-2">
+    <footer>
+        <a class="link " href="https://portafolio-eduardo-cespedes.netlify.app/" target="_blank" ><small class="footer">©2023 Eduardo Céspedes</small></a>
+    </footer>
+</div>
+
+
+
+
+
+   
+  <script src="scripts/app.js"></script>
+</body>
+</html>
